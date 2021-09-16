@@ -1,0 +1,11 @@
+[site]
+name = "New Website"
+author = "Snehit Sah"
+desc = "New website template"
+
+[config]
+scss = []
+
+[globals]
+profile-link-1 = "https://website.com/username"
+
