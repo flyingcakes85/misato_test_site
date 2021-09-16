@@ -29,4 +29,4 @@
    path/to/misato/target/debug/misato build
    ```
 
-   This should create a one page site at `target/`. Open the generated `index.html` file in you web browser.
+   This should create a one page site at `target/`. Open the generated `index.html` file in your web browser.
