@@ -1,26 +1,12 @@
 {{#* inline "index"}}
 
+{{#each posts}}
 <div class="blog-listing">
-  <h1 class="blog-title"><a href="#">This is a lovely Blog Title</a></h1>
+  <h1 class="blog-title"><a href="{{this.data.post_path}}">{{this.info.title}}</a></h1>
   <p class="blog-summary">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil enim
-    deleniti iusto dicta voluptates numquam autem suscipit? Nihil dolore
-    dolorem vero dolor veritatis, vitae soluta aut obcaecati, enim tempora
-    exercitationem?
+    {{this.info.subtitle}}
   </p>
 </div>
-<div class="blog-listing">
-  <h1 class="blog-title"><a href="#">This is a lovely Blog Title</a></h1>
-  <p class="blog-summary">
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil enim
-    deleniti iusto dicta voluptates numquam autem suscipit? Nihil dolore
-    dolorem vero dolor veritatis, vitae soluta aut obcaecati, enim tempora
-    exercitationem?
-  </p>
-</div>
-<br>
-These are static elements, soon to be replaced with dynamically generated
-links from markdown posts ;-)
-
+{{/each}}
 {{/inline}}
 {{> home_layout}}

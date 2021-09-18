@@ -14,7 +14,7 @@ body {
 
 #nav {
   list-style-type: none;
-  margin-top: 95px;
+  margin-top: 65px;
   padding: 0;
   overflow: hidden;
   margin-bottom: 80px;
@@ -62,4 +62,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.blogpost {
+  margin-bottom: 10vh;
+  margin-right: 30%;
 }
