@@ -4,7 +4,7 @@ author = "Snehit Sah"
 desc = "New website template"
 
 [config]
-scss = []
+scss = ["base.scss"]
 blog_path = "blog/{{{info.category}}}"
 
 [globals]
