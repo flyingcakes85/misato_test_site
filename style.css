@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Cousine:ital,wght@1,700&family=PT+Sans&family=Sarabun:ital,wght@0,400;1,600&display=swap");
+
+* {
+  font-family: "Sarabun", sans-serif;
+  background-color: #101010;
+  color: white;
+}
+
+body {
+  margin: 0 15%;
+  padding-top: 10px;
+  height: 100%;
+}
+
+#nav {
+  list-style-type: none;
+  margin-top: 65px;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+
+.navlink {
+  float: right;
+}
+
+.navlink a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 0px;
+  padding-right: 16px;
+  text-decoration: none;
+}
+
+#website-title {
+  float: left;
+}
+
+#website-title a {
+  padding: 18px 0px;
+  border-bottom: 2px solid #1de9b6;
+
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: "Cousine", sans-serif !important;
+}
+
+.blog-title {
+  font-style: italic;
+  font-kerning: auto;
+  color: #1de9b6;
+}
+
+.blog-summary {
+  width: clamp(500px, 50%, 672px);
+}
+
+.blog-listing {
+  margin-bottom: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blogpost {
+  margin-bottom: 10vh;
+  margin-right: 30%;
+}
