@@ -26,7 +26,9 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Fetch misato binary
-        run: wget https://github.com/flyingcakes85/misato/releases/download/v0.1.0_testing/misato
+        run: |
+          wget https://github.com/flyingcakes85/misato/releases/download/v0.1.0_testing/misato
+          chmod +x misato
 
       - name: Build
         run: ./misato build
