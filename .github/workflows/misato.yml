@@ -36,9 +36,9 @@ jobs:
       - name: Push to remote
         run: |
           cd target
-          git config --global init.defaultBranch gh-pages
           git config user.name "GitHub Actions"
           git config user.name "github-action-bot@users.noreply.github.com"
+          git config --global init.defaultBranch gh-pages
           git init
           git add .
           git commit -m "Build website"
